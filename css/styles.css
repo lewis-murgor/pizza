@@ -5,3 +5,16 @@
     padding: 6px;
     margin: 30px;
 }
+h1 {
+    text-align: center;
+    color: white;
+}
+p {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+body {
+    text-align: center;
+}
