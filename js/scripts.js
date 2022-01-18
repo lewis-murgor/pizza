@@ -85,4 +85,18 @@ $(document).ready(function() {
                                             '<label for="tomato">Tomato-Ksh 250</label><br>' +
                                         '</div>');
     });
+    $("form#pizza").submit(function(event) {
+        event.preventDefault();
+
+        var inputtedSize = $("#size").val();
+        var inputtedCrust = $("#crust").val();
+        var inputtedToppings = $("#toppings").val();
+
+        var newPizza = new pizza(inputtedSize, inputtedCrust, inputtedToppings);
+
+        $("ul#pizzaPrice").append("<li><span class='price'>" + newPizza.total() + "</span></li>");
+    });
+    $("#deliver").click(function() {
+        alert("The delivery charge will be Ksh 400 which should be paid on delivery" + ".");   
+    });
 });
