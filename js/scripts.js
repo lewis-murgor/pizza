@@ -32,6 +32,9 @@ function pizza() {
 pizza.prototype.total = function() {
     return size.price + crust.price + toppings.price;
 }
+pizza.prototype.totalPrice = function() {
+    return size.price + crust.price + toppings.price + 400;
+}
 
 
 
@@ -83,7 +86,8 @@ $(document).ready(function() {
                                             '<label for="fresh garlic">Fresh garlic-Ksh 300</label><br>' +
                                             '<input type="checkbox" id="tomato">' +
                                             '<label for="tomato">Tomato-Ksh 250</label><br>' +
-                                        '</div>');
+                                        '</div>' +
+                                            '<button type="submit">Order!</button>');
     });
 
     $("form#pizza").submit(function(event) {
@@ -105,6 +109,12 @@ $(document).ready(function() {
     $("#total").click(function() {
         var location = prompt("Enter your location");
         alert("Your order will be delivered to " + location + ".");
-        $("ul#totalPrice").append("<li><span class='price'>" + newPizza.total() + "</span></li>");
+        var inputtedSize = $("#size").val();
+        var inputtedCrust = $("#crust").val();
+        var inputtedToppings = $("#toppings").val();
+
+        var newPizza = new pizza(inputtedSize, inputtedCrust, inputtedToppings);
+
+        $("ul#totalPrice").append("<li><span class='price'>" + newPizza.totalPrice() + "</span></li>");
     });
 });
