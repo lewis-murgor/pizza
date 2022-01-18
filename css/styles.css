@@ -18,3 +18,24 @@ form {
 body {
     text-align: center;
 }
+#toppings {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/16/fa/e2/af/yummy.jpg");
+    background-size: 1150px 450px;
+    color: white;
+    padding: 6px;
+    margin: 30px;
+}
+#size {
+    background-image: url("https://lh5.googleusercontent.com/p/AF1QipNmwvFZwEYP6GjgjlwwjZWmQj36M1ozOkqU84WC=w400-h300-k-no");
+    background-size: 500px 200px;
+    color: white;
+    padding: 6px;
+    margin: 30px;
+}
+#crust {
+    background-image: url("https://lh5.googleusercontent.com/p/AF1QipNmwvFZwEYP6GjgjlwwjZWmQj36M1ozOkqU84WC=w400-h300-k-no");
+    background-size: 500px 200px;
+    color: white;
+    padding: 6px;
+    margin: 30px;
+}
