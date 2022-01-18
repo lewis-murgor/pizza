@@ -39,3 +39,10 @@ body {
     padding: 6px;
     margin: 30px;
 }
+#delivery {
+    background-image: url("https://image.shutterstock.com/image-photo/all-meat-pizza-that-will-260nw-1405926455.jpg");
+    background-size: 210px 100px;
+    color: white;
+    padding: 6px;
+    margin: 30px;
+}
