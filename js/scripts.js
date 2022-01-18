@@ -28,4 +28,7 @@ function pizza() {
     this.size = size;
     this.crust = crust;
     this.toppings = toppings;
+}
+pizza.prototype.total = function() {
+    return size.price + crust.price + toppings.price;
 } 
