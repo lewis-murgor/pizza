@@ -44,45 +44,45 @@ $(document).ready(function() {
                                         '<div id="size">' +
                                             '<p><strong>Choose the size you want below:</strong></p>' +
                                             '<input type="radio" id="small">' +
-                                            '<label for="small pizza">Small</label><br>' +
+                                            '<label for="small pizza">Small-Ksh 500</label><br>' +
                                             '<input type="radio" id="medium">' +
-                                            '<label for="medium pizza">Medium</label><br>' +
+                                            '<label for="medium pizza">Medium-Ksh 750</label><br>' +
                                             '<input type="radio" id="large">' +
-                                            '<label for="large pizza">Large</label>' +
+                                            '<label for="large pizza">Large-Ksh 1000</label>' +
                                         '</div>' + 
                                     '</div>' +
                                     '<div class="col-md-6">' +
                                         '<div id="crust">' +
                                             '<p><strong>Choose the crust you want below:</strong></p>' +
                                             '<input type="radio" id="crispy">' +
-                                            '<label for="crispy">Crispy</label><br>' +
+                                            '<label for="crispy">Crispy-Ksh 1200</label><br>' +
                                             '<input type="radio" id="stuffed">' +
-                                            '<label for="stuffed">Stuffed</label><br>' +
+                                            '<label for="stuffed">Stuffed-Ksh 1300</label><br>' +
                                             '<input type="radio" id="glutenFree">' +
-                                            '<label for="gluten-free">Gluten-free</label>' +
+                                            '<label for="gluten-free">Gluten free-Ksh 1500</label>' +
                                         '</div>' +
                                     '</div>' +
                                 '</div>' +
                                         '<div id="toppings">' +
                                             '<p><strong>Choose the topping(s) you want below:</strong></p>' +
                                             '<input type="checkbox" id="pepperoni">' +
-                                            '<label for="pepperoni">Pepperoni</label><br>' +
+                                            '<label for="pepperoni">Pepperoni-Ksh 350</label><br>' +
                                             '<input type="checkbox" id="mushroom">' +
-                                            '<label for="mushroom">Mushroom</label><br>' +
+                                            '<label for="mushroom">Mushroom-Ksh 400</label><br>' +
                                             '<input type="checkbox" id="extraCheese">' +
-                                            '<label for="exra cheese">Extra cheese</label><br>' +
+                                            '<label for="exra cheese">Extra cheese-Ksh 300</label><br>' +
                                             '<input type="checkbox" id="sausage">' +
-                                            '<label for="sausage">Sausage</label><br>' +
+                                            '<label for="sausage">Sausage-Ksh 250</label><br>' +
                                             '<input type="checkbox" id="onion">' +
-                                            '<label for="onion">Onion</label><br>' +
+                                            '<label for="onion">Onion-Ksh 200</label><br>' +
                                             '<input type="checkbox" id="blackOlives">' +
-                                            '<label for="black olives">Black olives</label><br>' +
+                                            '<label for="black olives">Black olives-Ksh 250</label><br>' +
                                             '<input type="checkbox" id="greenPepper">' +
-                                            '<label for="green pepper">Green pepper</label><br>' +
+                                            '<label for="green pepper">Green pepper-Ksh 250</label><br>' +
                                             '<input type="checkbox" id="freshGarlic">' +
-                                            '<label for="fresh garlic">Fresh garlic</label><br>' +
+                                            '<label for="fresh garlic">Fresh garlic-Ksh 300</label><br>' +
                                             '<input type="checkbox" id="tomato">' +
-                                            '<label for="tomato">Tomato</label><br>' +
+                                            '<label for="tomato">Tomato-Ksh 250</label><br>' +
                                         '</div>');
     });
 });
