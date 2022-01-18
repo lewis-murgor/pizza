@@ -18,5 +18,5 @@ The link to the live site of this website on github pages is
 ## Support and contact details
 You can fork the project and make chnges. You can also reach me through the email adress kiplagatlewis29@gmail.com.
 ### License
-*>You can check the licence [here]()*
+*>You can check the licence [here](https://github.com/lewis-murgor/pizza/blob/master/Licence)*
 Copyright (c) {2022} **by Lewis Murgor**
