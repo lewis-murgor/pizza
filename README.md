@@ -6,7 +6,7 @@ This is a website on Pizza Palace, a pizza shop which allows a user to order piz
 ## Setup/Installation Requirements
 * Go to any browser
 * click on new tab
-* Enter the url 
+* Enter the url https://lewis-murgor.github.io/pizza/
 * click enter
 All you need to view this website is a browser.
 ## Known Bugs
@@ -14,7 +14,7 @@ The website has no known bugs as it is a new website.
 ## Technologies Used
 The technologies used to create this project are html, css and javascript.
 ## Live Site on Github pages
-The link to the live site of this website on github pages is 
+The link to the live site of this website on github pages is https://lewis-murgor.github.io/pizza/
 ## Support and contact details
 You can fork the project and make chnges. You can also reach me through the email adress kiplagatlewis29@gmail.com.
 ### License
